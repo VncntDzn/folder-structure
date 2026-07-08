@@ -1,6 +1,6 @@
 import type { Room } from "../domain/room";
 import type { RoomResponse } from "../dtos/create-room.response";
-import type { UpdateRoomPayload } from "../dtos/update-room.request";
+import type { UpdateRoomPayload } from "../pages/room-details/dtos/update-room.request";
 
 export async function updateRoom(
   currentRoom: Room,

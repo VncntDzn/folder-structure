@@ -1,6 +1,6 @@
 import type { FormEvent } from "react";
 
-import { Button, Input } from "../../../common/components";
+import { Button, Input } from "../../../common/ui";
 import type { CreateBookingRequest } from "../dtos/create-booking.request";
 
 export type BookingFormProps = {

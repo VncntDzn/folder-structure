@@ -56,7 +56,8 @@ Use direct imports like these instead of feature barrels:
 
 - `features/rooms/api/get-rooms`
 - `features/rooms/domain/room`
-- `features/bookings/pages/bookings.page`
+- `features/bookings/pages/bookings`
+- `features/bookings/pages/create-booking/hooks/use-create-booking`
 
 ## Why This Communication Style Helps
 
@@ -73,3 +74,4 @@ When adding a new feature:
 - if another feature needs something, import the specific file directly
 - keep cross-feature imports limited to stable, well-named modules
 - if many features need the same truly generic code, then consider moving it to `common`
+- keep page-only components, hooks, and DTOs under `pages/<page>` until a second page clearly needs them

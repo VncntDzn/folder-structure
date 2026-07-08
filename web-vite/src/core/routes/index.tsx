@@ -1,6 +1,6 @@
 import { PublicLayout } from "../../common/layouts";
-import { BookingsPage } from "../../features/bookings/pages/bookings.page";
-import { RoomsPage } from "../../features/rooms/pages/rooms.page";
+import { BookingsPage } from "../../features/bookings/pages/bookings";
+import { RoomsPage } from "../../features/rooms/pages/rooms";
 
 export function AppRoutes() {
   return (

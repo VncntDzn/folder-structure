@@ -1,5 +1,5 @@
 import type { Room } from "../domain/room";
-import type { CreateRoomPayload } from "../dtos/create-room.request";
+import type { CreateRoomPayload } from "../pages/rooms/dtos/create-room.request";
 import type { RoomResponse } from "../dtos/create-room.response";
 
 export async function createRoom(
