@@ -1,1 +1,4 @@
 .history/*
+web-vite/node_modules/
+web-vite/dist/
+web-vite/tsconfig.tsbuildinfo
